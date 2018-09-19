@@ -10,7 +10,13 @@ form{
     padding: 2%;
 }
 
-.card{
+#toDoCards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+
 }
