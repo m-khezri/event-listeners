@@ -1,19 +1,11 @@
-.blue {
-background-color: aquamarine;
+body {
+    background-color: lightgray;
+    padding: 10px;
 }
 
-.large {
-    font-size: 40px;
+form{
+    width: 50%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 2%;
 }
-
-.bordered {
-    border: 1px solid red;
-}
-
-.rounded {
-    border-radius: 6px;
-    border: 1px solid coral;
-}
-
-
-
