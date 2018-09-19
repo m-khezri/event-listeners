@@ -2,21 +2,3 @@ body {
     background-color: lightgray;
     padding: 10px;
 }
-
-form{
-    width: 50%;
-    margin: auto;
-    border: 1px solid gray;
-    padding: 2%;
-}
-
-#toDoCards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card{
-    margin: 10px;
-
-}
