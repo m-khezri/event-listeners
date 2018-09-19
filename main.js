@@ -12,7 +12,13 @@ const activateDeletes = () => {
 
     for ( let i=0; i< deleteButton.length; i++){
         const element = deleteButton[i];
-        element.addEventListener("click", () => {
+        element.addEventListener("click", (e) => {
+
+            // card that the buttom was on
+            const buttonClicked = e.target;
+            const cardToDelete = buttonClicked.parentNode.parentNode;
+            cardToDelete.remove();
+
             console.log ("they clicked delete!!!");
         })
     }
