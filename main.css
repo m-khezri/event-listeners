@@ -2,15 +2,3 @@ body {
     background-color: lightgray;
     padding: 10px;
 }
-
-form{
-    width: 50%;
-    margin: auto;
-    border: 1px solid gray;
-    padding: 2%;
-}
-
-.card{
-    display: flex;
-    flex-wrap: wrap;
-}
