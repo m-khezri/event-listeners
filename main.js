@@ -1,14 +1,12 @@
 const toDoInputElem = document.getElementById('ToDoInput');
 const notesInputElem = document.getElementById('notesInput');
-
 const submitToDoBottomElem = document.getElementById('submitToDoButtom');
-
 const deleteButton = document.getElementsByClassName('deleteButtom');
 
 const activateDeletes = () => {
     const deleteButton = document.getElementsByClassName ('deleteButton');
     
-    console.log(deleteButton);
+    // console.log(deleteButton);
 
     for ( let i=0; i< deleteButton.length; i++){
         const element = deleteButton[i];
@@ -19,7 +17,7 @@ const activateDeletes = () => {
             const cardToDelete = buttonClicked.parentNode.parentNode;
             cardToDelete.remove();
 
-            console.log ("they clicked delete!!!");
+            // console.log ("they clicked delete!!!");
         })
     }
 }
